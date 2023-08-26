@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play_Station_Portal</title>
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="Playstation_Img/logo.png" alt="" class="logo">
+            <nav>
+                <ul id="menulist">
+                    <li><a href="#">Game Controller</a></li>
+                    <li><a href="#">VR Accessories</a></li>
+                    <li><a href="#">Media Remotes</a></li>
+                    <li><a href="#">Others</a></li>
+                </ul>
+            </nav>
+            <img src="Playstation_Img/menu.png" alt="" class="menu-icon" onclick="togglemenu()">
+        </div>
+
+        <!-- --------- -->
+        <div class="row">
+            <div class="col-1">
+                <h2>PS4 V2 <br>Dualshock 4</h2>
+                <h3>Wireless Controller for PlayStation 4</h3>
+                <p>(Compatible/Generics)</p>
+                <h4>$32.04</h4>
+                <button class="button">Buy Now<img src="Playstation_Img/arrow.png"></button>
+
+            </div>
+            <div class="col-2">
+                <img src="Playstation_Img/controller.png" alt="" class="controller">
+                <div class="color-box"></div>
+                <div class="add-btn">
+                    <img src="Playstation_Img/add.png" alt="">
+                    <p><small>Add to cart</small></p>
+                </div>
+            </div>
+        </div>
+        <div class="social-links">
+            <img src="Playstation_Img/fb.png" alt="">
+            <img src="Playstation_Img/tw.png" alt="">
+            <img src="Playstation_Img/ig.png" alt="">
+
+        </div>
+        <!-- footer -->
+        <div class="footers">
+            <div class="footer">
+                <h1>About</h1>
+                <ul>
+                    <li>About SIE</li>
+                    <li>Careers</li>
+                    <li>PlayStation Studios</li>
+                    <li>PlayStation Productions</li>
+                    <li>Corporate</li>
+                </ul>
+            </div>
+            <div class="footer">
+                <h1>Products</h1>
+                <li>PS5</li>
+                <li>PS4</li>
+                <li>PS VR2</li>
+                <li>PS Plus</li>
+                <li>Accessories</li>
+                <li>Games</li>
+            </div>
+            <div class="footer">
+                <h1>Values</h1>
+                <li>Environment</li>
+                <li>Accessibility</li>
+                <li>Online Safety</li>
+                <li>Diversity, equity & inclusion</li>
+            </div>
+            <div class="footer">
+                <h1>Support</h1>
+                <li>Support hub</li>
+                <li>PlayStation Safety</li>
+                <li>PSN Status</li>
+                <li>PlayStation Repairs</li>
+                <li>Password reset</li>
+            </div>
+            <div class="footer">
+                <h1>Resources</h1>
+                <li>PSN terms of service</li>
+                <li>PS Store cacellation policy</li>
+                <li>Age ratings</li>
+                <li>Health warning</li>
+                <li>Developers</li>
+                <li>Glossary</li>
+            </div>
+
+            <div class="footer">
+                <h1>Connect</h1>
+                <ul class="soc">
+                    <li><a href=""><i class='bx bxl-facebook-circle'></i></a></li>
+                    <li><a href=""><i class='bx bxl-twitter'></i></a></li>
+                    <li><a href=""><i class='bx bxl-instagram-alt'></i></a></li>
+                    <li><a href=""><i class='bx bxl-youtube'></i></a></li>
+                </ul>
+                <h6>IOS app</h6>
+                <h6>Android app</h6>
+            </div>
+            <div class="footer">
+                <h1>Developers</h1>
+                <img src="Playstation_Img/pro.jpeg" alt="">
+                <p>To work in firm with a professioanl work driven environemtn where I can utilize and apply my
+                    knowledge, skills which would enable me as a fresh graduate to grow while fulfilling organizational
+                    goals.</p>
+            </div>
+        </div>
+        <h6 id="footer">made wih <span>love</span> & collaboration with &copy;5yrupsandwich</h6>
+
+        <!-- js -->
+        <script>
+            var menulist = document.getElementById("menulist");
+
+            menulist.style.maxHeight = "0px";
+            function togglemenu() {
+                if (menulist.style.maxHeight == "0px") {
+                    menulist.style.maxHeight = "130px";
+                }
+                else {
+                    menulist.style.maxHeight = "0px";
+                }
+            }
+        </script>
+</body>
+
+</html>
